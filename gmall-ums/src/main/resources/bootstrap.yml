@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ums-service
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848
+        namespace: 9cebeb20-128a-4eaa-93dc-ca2aa6ecd3f9
+        group: dev
+        file-extension: yml
